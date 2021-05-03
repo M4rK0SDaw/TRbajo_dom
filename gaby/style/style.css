@@ -123,8 +123,18 @@ ul#menu li a:hover{
 
    .invisible{
   display:none;}
-
-  #picture{
+  
+  #pictur{
     height: 100px;
   width: 100px;
   }
+
+.hide{
+  display: none; 
+  }
+.show{  
+  display: block; 
+}
+.one{
+  color:blue;
+}

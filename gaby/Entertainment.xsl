@@ -34,7 +34,7 @@
 						<xsl:for-each select="free_software/entertainments/application">
                    	 <p><br/></p>
                     	<h1><xsl:value-of select="name" /></h1>
-						<img id="picture">
+						<img id="pictur">
                             <xsl:attribute name="src">
                             <xsl:value-of select="picture/@src" />
                             </xsl:attribute>
@@ -50,8 +50,13 @@
                         <h2> Language of the application  :</h2>
                             <p><xsl:value-of select="write" /></p>
                     <p><br/></p>
-                    <h2> More information about this app : </h2>
-					<p><xsl:value-of select="link"/></p>
+                        <h2> Where to find the application : </h2>
+                         <a class="one"> 
+						 <xsl:attribute name="href">
+						 <xsl:value-of select="link/@href"/> 	
+						 </xsl:attribute>
+						 <xsl:value-of select="link"/>
+						 </a>
                     <p><br/></p>
 					<hr />
                 </xsl:for-each>

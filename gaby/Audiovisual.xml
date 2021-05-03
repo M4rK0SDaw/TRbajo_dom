@@ -21,7 +21,7 @@
 			<creator> Hugh "Jim" Bailey</creator>
 			<write>C, C++</write>
 			<picture src="images/OBS.png">Logo</picture>
-			<link>https://obsproject.com/</link>
+			<link href="https://obsproject.com/">Web Oficial</link>
 		</application>
 		<application>
 			<name>Blender</name>
@@ -29,7 +29,7 @@
 			<creator>Ton Roosendaal</creator>
 			<write>C, C++ y Python</write>
 			<picture src="images/blender.png">Logo</picture>
-			<link>https://www.blender.org/"</link>
+			<link href="https://www.blender.org/">Web Oficial</link>
 		</application>
 		<application>
 			<name>Audacity</name>
@@ -37,7 +37,7 @@
 			<creator>Dominic Mazzoni y Roger Dannenberg</creator>
 			<write>	C, C++ (using the wxWidgets toolkit)</write>
 			<picture src="images/Audacity.png">Logo</picture>
-			<link>https://www.audacityteam.org/"</link>
+			<link href="https://www.audacityteam.org/">Web Oficial</link>
 		</application>
 	</audiovisuals>
 	<educational>
@@ -48,7 +48,7 @@
 			OpenOffice is based on the older StarOffice software that was created by Sun Microsystems.</function>
 			<creator>Apache Software Foundation</creator>
 			<write>C++ and Java</write>
-			<picture src="images/AOO.jpg">Logo</picture>
+			<picture src="images/AOO.png">Logo</picture>
 			<link href="https://www.openoffice.org/">Web Oficial</link>
 		</application>
 		<application>

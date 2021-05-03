@@ -3,7 +3,7 @@ window.onload = function() {
 }
 
 function muestraTexto(){
-	var indice = document.getElementById('formulario').persons.selectedIndex;//Nos guardamos la posición de la opción seleccionada
+	var indice = document.getElementById('formulario').persons.selectdIndex;//Nos guardamos la posición de la opción seleccionada
 	var valor = document.getElementById('formulario').persons.options[indice].value;//De esa posición seleccionada, guardamos su value
 	
 	if(valor === "Richard"){
@@ -61,3 +61,24 @@ function ocultarTodo(){
 	
 }
 	
+function SearchClick(){
+
+    var parrafo = document.getElementsByTagName("div");//BUSCAMOS TODAS LAS P
+
+    var contBox =document.getElementById("Search1").value;//OBTENEMOS EL VALOR QUE INTRODUCIMOS
+    
+	for ( i = 0; i < parrafo.length; i++) {  
+    
+		var terremoto =  parrafo[i].textContent.toLowerCase();
+    
+		var  rest = terremoto.includes(contBox.toLowerCase());
+    
+		if(rest){
+			document.getElementById('datos').classList.add("invisible");
+			document.getElementsByName(terremoto).classList.remove("invisible");
+			document.getElementsByName(terremoto).classList.add("visible");	
+		}
+		
+  
+	}
+}
