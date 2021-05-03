@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="Esqueleto.xsl" type="text/xsl"?>
+<free_software>
+	<definition>
+					“Free software” means software that respects users' freedom and community. Roughly, it means that the users have the freedom to run, copy, distribute, study, change and improve the software. Thus, “free software” is a matter of liberty, not price. To understand the concept, you should think of “free” as in “free speech,” not as in “free beer”. We sometimes call it “libre software,” borrowing the French or Spanish word for “free” as in freedom, to show we do not mean the software is free.
+					We campaign for these freedoms because everyone deserves them. With these freedoms, the users (both individually and collectively) control the program and what it does for them. When users don't control the program, we call it a “nonfree” or “proprietary” program. (Free Software Foundation)
+		<freedoms>
+								The four essential freedoms
+			<freedom>The freedom to run the program as you wish, for any purpose (freedom 0).
+			</freedom>
+			<freedom>The freedom to study how the program works, and change it so it does your computing as you wish (freedom 1). Access to the source code is a precondition for this.
+			</freedom>
+			<freedom>The freedom to redistribute copies so you can help others (freedom 2).
+			</freedom>
+			<freedom>The freedom to distribute copies of your modified versions to others (freedom 3). By doing this you can give the whole community a chance to benefit from your changes. Access to the source code is a precondition for this.
+			</freedom>
+		</freedoms>
+	</definition>
+	<audiovisuals>
+		<application>
+			<name>Open Broadcaster Software (OBS) </name>
+			<function> Open Broadcaster Software (OBS) is a free and open-source cross-platform streaming and recording program built with Qt and maintained by the OBS Project. Since 2016, the software is now referred to as OBS Studio. There are versions of OBS Studio available for Microsoft Windows, macOS, and Linux distributions. OBS Project raises funds on Open Collective and Patreon.</function>
+			<creator> Hugh "Jim" Bailey</creator>
+			<write>C, C++</write>
+			<picture src="images/OBS.png">IMAGEN</picture>
+			<link>https://obsproject.com/ </link>
+		</application>
+		<application>
+			<name>Blender</name>
+			<function>Blender is a free and open-source 3D computer graphics software toolset used for creating animated films, visual effects, art, 3D printed models, motion graphics, interactive 3D applications, virtual reality, and computer games. Blender's features include 3D modeling, UV unwrapping, texturing, raster graphics editing, rigging and skinning, fluid and smoke simulation, particle simulation, soft body simulation, sculpting, animating, match moving, rendering, motion graphics, video editing, and compositing.</function>
+			<creator>Ton Roosendaal</creator>
+			<write>C, C++ y Python</write>
+			<picture src="images/blender.png">IMAGEN</picture>
+			<link>https://www.blender.org/</link>
+		</application>
+		<application>
+			<name>Audacity</name>
+			<function>Audacity is a free and open-source digital audio editor and recording application software, available for Windows, macOS, Linux, and other Unix-like operating systems. As of April 19, 2021, it is the most popular download from FossHub, with nearly 110 million downloads since March 2015. Audacity won the SourceForge 2007 and 2009 Community Choice Award for Best Project for Multimedia. Audacity is licensed under GPLv2 or any later version.</function>
+			<creator>Dominic Mazzoni y Roger Dannenberg</creator>
+			<write>	C, C++ (using the wxWidgets toolkit)</write>
+			<picture src="images/Audacity.png">IMAGEN</picture>
+			<link>https://www.audacityteam.org/</link>
+		</application>
+	</audiovisuals>
+	<educational>
+		<application>
+			<name>Apache OpenOffice (AOO)</name>
+			<function>Apache OpenOffice (formerly OpenOffice.org) is a free open source office suite. The free software project was formerly hosted by Sun Microsystems and then Oracle Corporation and is currently hosted by Apache. It is available for many different operating systems, including Microsoft Windows, Linux, OS X, FreeBSD and Solaris; and is meant to be an alternative to Microsoft Office. It supports Microsoft Office file formats as well as its own OpenDocument format.
+								The ".org" part of the previous name OpenOffice.org is there because OpenOffice is already trademarked. It is often called "OOo" for short.
+								OpenOffice is based on the older StarOffice software that was created by Sun Microsystems.</function>
+			<creator>Apache Software Foundation</creator>
+			<write>C++ and Java</write>
+			<picture src="images/AOO.png">IMAGEN</picture>
+			<link>https://www.openoffice.org/</link>
+		</application>
+		<application>
+			<name>Notepad++</name>
+			<function>Notepad++ is a text and source code editor for use with Microsoft Windows. It supports tabbed editing, which allows working with multiple open files in a single window. The project's name comes from the C increment operator.
+								Notepad++ is distributed as free software. At first the project was hosted on SourceForge.net, from where it has been downloaded over 28 million times, and twice won the SourceForge Community Choice Award for Best Developer Tool. The project was hosted on TuxFamily [fr] from 2010 to 2015; since 2015 Notepad++ has been hosted on GitHub. Notepad++ uses the Scintilla editor component.</function>
+			<creator>Don Ho</creator>
+			<write>C++</write>
+			<picture src="images/Notepad.png">IMAGEN</picture>
+			<link>https://notepad-plus-plus.org/</link>
+		</application>
+		<application>
+			<name>Pencil2D</name>
+			<function>Pencil2D is a free and open-source 2D animation software for Windows, macOS and Unix-like operating systems. It is released under the GNU General Public License and uses the Qt framework. It is used for making cartoons using traditional techniques (tracing drawings, onion skinning etc), managing vector and bitmap drawings.
+							It allows saving the animations in its own native file format, as well exporting it as a sequence of images in PNG, JPEG, BMP or TIFF format, and also in a video file in AVI, MP4, WebM, GIF or APNG format.</function>
+			<creator>Patrick Corrieri, Pascal Naidon, Matthew Chang</creator>
+			<write>C++</write>
+			<picture src="images/Pencil.png">IMAGEN</picture>
+			<link>https://www.pencil2d.org/</link>
+		</application>
+	</educational>
+	<ComputerSecurity>
+		<application>
+			<name>Clonezilla</name>
+			<function>Clonezilla is a partition and disk imaging/cloning program similar to True Image® or Norton Ghost®. It helps you to do system deployment, bare metal backup and recovery. Three types of Clonezilla are available, Clonezilla live, Clonezilla lite server, and Clonezilla SE (server edition). Clonezilla live is suitable for single machine backup and restore. While Clonezilla lite server or SE is for massive deployment, it can clone many computers simultaneously. Clonezilla saves and restores only used blocks in the hard disk. This increases the clone efficiency.</function>
+			<creator>Steven Shiau, NCHC Free Software Labs</creator>
+			<write>Perl, Unix shell</write>
+			<picture src="images/clonezilla.png">IMAGEN</picture>
+			<link>https://clonezilla.org/</link>
+		</application>
+		<application>
+			<name>AOMEI Backupper</name>
+			<function>AOMEI is a free disk cloning software for Windows only, that allows you to do backups to your drives and protect your data</function>
+			<creator>Aomeitech Labs</creator>
+			<write>C++</write>
+			<picture src="images/AOMEI.png">IMAGEN</picture>
+			<link>https://www.aomeitech.com/aomei-backupper.html</link>
+		</application>
+		<application>
+			<name>Easeus</name>
+			<function>Easeus is a free disk cloning software that lets you clone 
+									your drives, floppy disks, and USBs. In its free version, it 
+									provides all System/file/disk back-up and recovery Disk clone. For 
+									more features, one has to upgrade to its paid versions. It is one
+									of the best software in the Disk cloning category. Available in 
+									160 countries, Easeus claims to have satisfied 2,00,000,000 
+									customers to date. Home users, organizations, academic users,  
+									IT admins, professionals, technicians, service operators, 
+									consultants, and enterprises can use the software.
+			</function>
+			<creator>Ji'en Liu</creator>
+			<write>C++</write>
+			<picture src="images/EaseUS.png">IMAGEN</picture>
+			<link>https://www.easeus.com/data-recovery-software/</link>
+		</application>
+	</ComputerSecurity>
+	<entertainments>
+		<application>
+			<name>Telegram</name>
+			<function>Telegram is a freeware, cross-platform, cloud-based instant
+									messaging (IM) software and application service. The service also
+									provides end-to-end encrypted video calling, VoIP, file sharing 
+									and several other features. It was initially launched for iOS on
+									14 August 2013 and Android in October 2013. The application 
+									servers of Telegram are distributed worldwide to decrease data
+										load with five data centers in different regions, Various 
+										Telegram client apps are available for desktop and mobile
+										platforms including official apps for Android, iOS, Windows,
+										macOS and Linux. There are also two official Telegram web 
+										apps - WebK and WebZ - and numerous unofficial clients that
+										make use of Telegram's protocol. All of Telegram's official
+											components are open source,  with the exception of the 
+											server which is closed-sourced and proprietary.
+			</function>
+			<creator>Nikolái Dúrov, Pável Dúrov</creator>
+			<write>C++</write>
+			<picture src="images/Telegram.png"></picture>
+			<link>https://telegram.org/</link>
+		</application>
+		<application>
+			<name>OSU!</name>
+			<function>OSU! is a rhythm game primarily developed, released 
+									for Microsoft Windows on September, 16, 2007, the game has
+									also been ported to macOS, Linux, Android and iOS. Its gameplay
+									s inspired by titles such as Osu! Tatakae! Ouendan, Taiko no 
+									Tatsujin, Happy Feet (video game), Beatmania IIDX, Elite Beat 
+									Agents, O2Jam, StepMania, and DJMax. OSU! has received generally
+									positive reviews and has been recommended by professional gamers
+									as a way of improving cursor aim and gaining advantage in games
+										other than osu!</function>
+			<creator>Dean Herbert</creator>
+			<write>C#</write>
+			<picture src="images/osu.png">IMAGEN</picture>
+			<link>https://osu.ppy.sh/home</link>
+		</application>
+		<application>
+			<name>Cheat Engine</name>
+			<function> Cheat Engine is an open source memory scanner, hex editor and debug tool for the Windows operating system. Cheat Engine is mostly used for cheating in computer games. It changes the value inputs of games and increases / decreases values such as money and experience in offline games</function>
+			<creator>Eric Heijen</creator>
+			<write>C++</write>
+			<picture src="images/Cheat-Engine.jpg">IMAGEN</picture>
+			<link>https://www.cheatengine.org/</link>
+		</application>
+	</entertainments>
+</free_software>
