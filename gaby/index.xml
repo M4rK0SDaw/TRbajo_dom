@@ -22,7 +22,7 @@
 			<creator> Hugh "Jim" Bailey</creator>
 			<write>C, C++</write>
 			<picture src="images/OBS.png">Logo</picture>
-			<link>https://obsproject.com/ </link>
+			<link href="https://obsproject.com/">Web Oficial</link>
 		</application>
 		<application>
 			<name>Blender</name>
@@ -30,7 +30,7 @@
 			<creator>Ton Roosendaal</creator>
 			<write>C, C++ y Python</write>
 			<picture src="images/blender.png">Logo</picture>
-			<link>https://www.blender.org/</link>
+			<link href="https://www.blender.org/">Web Oficial</link>
 		</application>
 		<application>
 			<name>Audacity</name>
@@ -38,7 +38,7 @@
 			<creator>Dominic Mazzoni y Roger Dannenberg</creator>
 			<write>	C, C++ (using the wxWidgets toolkit)</write>
 			<picture src="images/Audacity.png">Logo</picture>
-			<link>https://www.audacityteam.org/</link>
+			<link href="https://www.audacityteam.org/">Web Oficial</link>
 		</application>
 	</audiovisuals>
 	<educational>
@@ -50,7 +50,7 @@
 			<creator>Apache Software Foundation</creator>
 			<write>C++ and Java</write>
 			<picture src="images/AOO.png">Logo</picture>
-			<link>https://www.openoffice.org/</link>
+			<link href="https://www.openoffice.org/">Web Oficial</link>
 		</application>
 		<application>
 			<name>Notepad++</name>
@@ -59,7 +59,7 @@
 			<creator>Don Ho</creator>
 			<write>C++</write>
 			<picture src="images/Notepad.png">Logo</picture>
-			<link>https://notepad-plus-plus.org/</link>
+			<link href="https://notepad-plus-plus.org/">Web Oficial</link>
 		</application>
 		<application>
 			<name>Pencil2D</name>
@@ -68,7 +68,7 @@
 			<creator>Patrick Corrieri, Pascal Naidon, Matthew Chang</creator>
 			<write>C++</write>
 			<picture src="images/Pencil.png">Logo</picture>
-			<link>https://www.pencil2d.org/</link>
+			<link href="https://www.pencil2d.org/">Web Oficial</link>
 		</application>
 	</educational>
 	<ComputerSecurity>
@@ -78,7 +78,7 @@
 			<creator>Steven Shiau, NCHC Free Software Labs</creator>
 			<write>Perl, Unix shell</write>
 			<picture src="images/clonezilla.png">Logo</picture>
-			<link>https://clonezilla.org/</link>
+			<link href="https://clonezilla.org/">Web Oficial</link>
 		</application>	
 		<application>
 			<name>AOMEI Backupper</name>
@@ -86,7 +86,7 @@
 			<creator>Aomeitech Labs</creator>
 			<write>C++</write>
 			<picture src="images/AOMEI.png">Logo</picture>
-			<link></link>
+			<link href="https://www.ubackup.com/">Web Oficial</link>
 		</application>
 		<application>
 			<name>Easeus</name>
@@ -94,7 +94,7 @@
 			<creator>Ji'en Liu</creator>
 			<write>C++</write>
 			<picture src="images/EaseUS.png">Logo</picture>
-			<link>https://www.easeus.com/data-recovery-software/</link>
+			<link href="https://www.easeus.com/data-recovery-software/">Web Oficial</link>
 		</application>
 	</ComputerSecurity>
 	<entertainments>
@@ -105,7 +105,7 @@
 		<creator>Nikolái Dúrov, Pável Dúrov</creator>
 		<write>C++</write>
 		<picture src="images/Telegram.png">Logo</picture>
-		<link enlace="https://telegram.org/">Web oficial</link>
+		<link href="https://telegram.org/">Web Oficial</link>
 	</application>
 	<application>
 		<name>OSU!</name>
@@ -113,7 +113,7 @@
 		<creator>Dean Herbert</creator>
 		<write>C#</write>
 		<picture src="images/osu.png">Logo</picture>
-		<link href="https://osu.ppy.sh/home">Web oficial</link>
+		<link href="https://telegram.org/">Web Oficial</link>
 	</application>
 	<application>
 		<name>Cheat Engine</name>
@@ -122,7 +122,7 @@
 		<creator>Eric Heijen</creator>
 		<write>C++</write>
 		<picture src="images/cheat.png">Logo</picture>
-		<link>https://www.cheatengine.org/</link>
+		<link href="https://telegram.org/">Web Oficial</link>
 	</application>
 </entertainments> 
 	<people>
